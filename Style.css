@@ -1,0 +1,30 @@
+ body{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height:100vh;
+       background: #18181b;
+     }
+      .cont{
+        
+        border: 2px solid ;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background:#26b9de;
+        overflow:hidden;
+        
+       }
+      .cont1{
+        height: 260px;
+        width:260px ;
+        border-radius: 90px;
+        position: relative;
+        background: #6ecfe7;
+        animation: load1 4s linear infinite;
+        top:-120px;
+        left:-30px ;
+        transform-origin: center;
+      }
+      .box{
+        height: 260px;
